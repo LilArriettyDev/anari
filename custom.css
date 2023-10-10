@@ -1,11 +1,11 @@
 @media (min-width: 601px) {
-    img {
-        filter: grayscale(1) brightness(0.9);
-    }
+    /*img {*/
+    /*    filter: grayscale(1) brightness(0.9);*/
+    /*}*/
 
-    img:hover {
-        filter: unset;
-    }
+    /*img:hover {*/
+    /*    filter: unset;*/
+    /*}*/
 }
 
 
@@ -15,8 +15,8 @@
     color: inherit;
     font-size: 3em; /* Increase icon size */
     display: inline-block;
-    width: 45%; /* Adjust width for two icons */
-    text-align: center;
+    width: 31%; /* Adjust width for two icons */
+    /*text-align: center;*/
 }
 
 .social-icon:hover {
@@ -33,7 +33,7 @@
     break-inside: avoid;
     padding: 5px;
     margin-bottom: 15px;
-    background-color: #f1f1f1;
+    /*background-color: #f1f1f1;*/
 }
 
 @media screen and (max-width: 900px) {
@@ -118,3 +118,86 @@ body, h1, h2, h3, h4, h5, h6 {
     height: 100%;
 }
 
+
+ .custom-red {
+     background-color: #EF3220;
+     color: white;
+ }
+
+.custom-blue {
+    background-color: #397DC9;
+    color: white;
+}
+
+.custom-orange {
+    background-color: #EA7E16;
+    color: white;
+}
+
+
+.w3-sidebar {
+    width: 120px;
+    background: #ffffff;
+}
+
+.w3-sidebar {
+    box-shadow: 2px 0px 5px rgba(0,0,0,0.1); /* Shadow on the right */
+}
+
+
+/* Set the sidebar background to the first color */
+.w3-sidebar {
+    /*background-color: #EF3220; !* Red *!*/
+}
+
+/* Set the first type of nav item to the second color */
+/*.w3-sidebar a:nth-child(odd) {*/
+/*    background-color: #397DC9; !* Blue *!*/
+/*}*/
+
+/* Set the second type of nav item to the third color */
+.w3-sidebar a {
+    background-color: #EA7E16; /* Orange */
+    color: white;
+    border-bottom: 2px solid #ffffff !important;  /* Adding a bottom border */
+
+}
+
+/* Optional: Set hover effect to revert to the sidebar color */
+.w3-sidebar a.w3-button:hover {
+    background-color: #397DC9 !important; /* Red */
+    color: white !important;
+}
+.w3-sidebar a {
+}
+strong {
+    color: #EF3220;
+}
+h2{
+    color: #397DC9;
+    font-weight: bold;
+}
+
+h3{
+    color: #EA7E16;
+    font-weight: bold;
+}
+.masonry-item p {
+    color: black;
+    font-size: 17px;
+}
+.masonry {
+    column-count: 3;
+    column-gap: 15px;
+}
+span.w3-large.w3-margin-right {
+    color: #EF3220;
+    font-weight: 600;
+}
+.w3-half.w3-section.w3-row-padding.w3-left-align.w3-justify p{
+    padding: 0;
+}
+.w3-third.w3-container.info-card.w3-margin-top, .w3-half.w3-section.w3-row-padding.w3-left-align.w3-justify{
+    padding-left: 0;
+    padding-right: 20px;
+}
