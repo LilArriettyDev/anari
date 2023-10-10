@@ -157,7 +157,9 @@ body, h1, h2, h3, h4, h5, h6 {
 
 /* Set the second type of nav item to the third color */
 .w3-sidebar a {
-    background-color: #EA7E16; /* Orange */
+    /*background-color: #EA7E16; !* Orange *!*/
+    background: conic-gradient(#EF3220, #397DC9, #EA7E16);
+
     color: white;
     border-bottom: 2px solid #ffffff !important;  /* Adding a bottom border */
 
@@ -200,4 +202,18 @@ span.w3-large.w3-margin-right {
 .w3-third.w3-container.info-card.w3-margin-top, .w3-half.w3-section.w3-row-padding.w3-left-align.w3-justify{
     padding-left: 0;
     padding-right: 20px;
+}
+
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+}
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
