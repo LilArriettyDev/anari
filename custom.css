@@ -188,10 +188,10 @@ h3{
     color: black;
     font-size: 17px;
 }
-.masonry {
-    column-count: 3;
-    column-gap: 15px;
-}
+/*.masonry {*/
+/*    column-count: 3;*/
+/*    column-gap: 15px;*/
+/*}*/
 span.w3-large.w3-margin-right {
     color: #EF3220;
     font-weight: 600;
