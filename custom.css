@@ -1,0 +1,120 @@
+@media (min-width: 601px) {
+    img {
+        filter: grayscale(1) brightness(0.9);
+    }
+
+    img:hover {
+        filter: unset;
+    }
+}
+
+
+.social-icon {
+    margin: 0 10px;
+    text-decoration: none;
+    color: inherit;
+    font-size: 3em; /* Increase icon size */
+    display: inline-block;
+    width: 45%; /* Adjust width for two icons */
+    text-align: center;
+}
+
+.social-icon:hover {
+    color: #007bff;
+    transition: color 0.3s;
+}
+
+.masonry {
+    column-count: 4;
+    column-gap: 15px;
+}
+
+.masonry-item {
+    break-inside: avoid;
+    padding: 5px;
+    margin-bottom: 15px;
+    background-color: #f1f1f1;
+}
+
+@media screen and (max-width: 900px) {
+    .masonry {
+        column-count: 2;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .masonry {
+        column-count: 1;
+    }
+}
+
+.things-love-to-do img {
+    width: 100%;
+    height: 100%;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif
+}
+
+.w3-row-padding img {
+    margin-bottom: 12px
+}
+
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {
+    width: 120px;
+    background: #222;
+}
+
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {
+    margin-left: 120px
+}
+
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {
+    #main {
+        margin-left: 0
+    }
+}
+
+
+.info-header {
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+}
+
+.icon-container {
+    display: flex;
+    /*justify-content: center;*/
+}
+
+.text-container {
+    /*text-align: center;*/
+}
+
+.info-icon {
+    font-size: 30px;
+}
+
+.container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    /*padding-top: 56.25%; !* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) *!*/
+    margin-bottom: 12px;
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
